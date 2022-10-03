@@ -1,0 +1,93 @@
+header {
+  height: 55px;
+  max-width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+  gap: 7px;
+  color: white;
+  font-weight: 500;
+  font-size: 14.4608px;
+  letter-spacing: -0.075em;
+  margin-bottom: 45px;
+}
+
+svg {
+  flex-shrink: 0;
+}
+
+hr {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  border: 1px solid #f5f5f5;
+}
+
+.card {
+  display: flex;
+}
+
+.card--details {
+  padding-top: 19px;
+  padding-left: 19px;
+}
+
+.card--image {
+  object-fit: cover;
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card--location {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 5px;
+}
+
+.card--location_icon {
+  width: 7px;
+  height: 9.55px;
+  flex-shrink: 0;
+  margin-right: 4px;
+}
+
+.card--location_name {
+  margin-right: 12px;
+  font-weight: 400;
+  font-size: 10.24px;
+  letter-spacing: 0.17em;
+  color: #2b283a;
+}
+
+.card--location--google_maps_link {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #918e9b;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #2b283a;
+  padding-bottom: 18px;
+}
+
+.card--date_range {
+  font-weight: 700;
+  font-size: 10.24px;
+  color: #2b283a;
+  padding-bottom: 10px;
+}
+
+.card--text {
+  max-width: 326px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 150%;
+}
+
+.main {
+  margin-left: 40px;
+  margin-right: 40px;
+}
